@@ -45,7 +45,9 @@ homebrew 加速 <http://w3cboy.com/post/2017/03/homebrew-speed-up/>
 
 `brew install zsh`
 
-`brew install oh-my-zsh`
+oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+编辑配置 `~/.zshrc`, 修改主题为 ys
 
 ## tmux
 
@@ -67,7 +69,18 @@ set -g @plugin 'tmux-plugins/tmux-yank'
 run '~/.tmux/plugins/tpm/tpm'
 ```
 
-[详细配置](https://blog.suisuijiang.com/tmux-course-terminal-manage/)
+使配置生效 `tmux source-file ~/.tmux.conf`
+
+安装 tmp `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+
+安装 yank `git clone https://github.com/tmux-plugins/tmux-yank ~/clone/path`
+
+修改 iTerm2 设置
+1. Go into iTerm2's preferences.
+2. Go to the "General" tab.
+3. Check "Applications in terminal may access clipboard"
+
+进入 tmux, 输入快捷键 prefix + I, 安装插件
 
 ## Alfred
 
@@ -138,7 +151,9 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 ```
 
-安装插件工具 <https://github.com/VundleVim/Vundle.vim>
+安装插件工具 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+安装插件 `vim +PluginInstall +qall`
 
 ## Dr. Cleaner Pro 内存/垃圾清理
 
