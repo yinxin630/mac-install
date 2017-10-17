@@ -2,7 +2,7 @@
 
 ## xcode
 
-App Store 搜 xcode 安装, 安装后打开并授权操作
+App Store 搜 xcode 安装, 安装后打开点击 agree 授权
 
 ## shadowsocks
 
@@ -101,6 +101,17 @@ run '~/.tmux/plugins/tpm/tpm'
 ## nvm
 
 `brew install nvm`
+
+添加下列到内容到 .zshrc, `vim ~/.zshrc`
+```
+export NVM_DIR="$HOME/.nvm"
+. "/Users/yinxin/bin/homebrew/opt/nvm/nvm.sh"
+export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+```
+
+## node.js
+
+`nvm install x.y.z`
 
 ## vim
 
