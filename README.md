@@ -178,10 +178,6 @@ filetype plugin indent on    " required
 
 <https://robomongo.org/download>
 
-## Dash 离线文档
-
-<http://xclient.info/s/dash.html?_=3a347412eed8e3045f3b8d948be8a8e6>
-
 ## SwitchHosts! 管理、切换多个 hosts
 
 <http://xclient.info/s/switchhosts.html?_=3a347412eed8e3045f3b8d948be8a8e6>
