@@ -1,10 +1,10 @@
 # mac-install
 
-## xcode
+## xcode 开发工具
 
 App Store 搜 xcode 安装, 安装后打开点击 agree 授权
 
-## shadowsocks
+## shadowsocks 翻墙
 
 <http://160.16.231.71/ssx-2.6.3.dmg>
 
@@ -12,15 +12,15 @@ App Store 搜 xcode 安装, 安装后打开点击 agree 授权
 
 <https://pinyin.sogou.com/mac/?r=pinyin>
 
-## chrome
+## chrome 浏览器
 
 <https://www.google.com/chrome/browser/desktop/index.html>
 
-## iTerm2
+## iTerm2 终端
 
 <https://www.iterm2.com/downloads.html>
 
-## homebrew
+## homebrew Mac软件源
 
 `cd ~ && mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew`
 
@@ -41,7 +41,7 @@ brew update
 
 homebrew 加速 <http://w3cboy.com/post/2017/03/homebrew-speed-up/>
 
-## zsh
+## zsh 系统shell
 
 `brew install zsh`
 
@@ -49,7 +49,7 @@ oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh
 
 编辑配置 `~/.zshrc`, 修改主题为 ys
 
-## tmux
+## tmux 终端窗口工具
 
 `brew install tmux`
 
@@ -82,23 +82,23 @@ run '~/.tmux/plugins/tpm/tpm'
 
 进入 tmux, 输入快捷键 prefix + I, 安装插件
 
-## Alfred
+## Alfred 快速启动
 
 <http://xclient.info/s/alfred.html?_=baf317d2a9932afca9b32c327f8a34c9>
 
-## vscode
+## vscode 编辑器
 
 <https://code.visualstudio.com/download>
 
-## github desktop
+## github desktop GIT客户端
 
 <https://desktop.github.com/>
 
-## dash
+## Dash 离线文档
 
 <http://xclient.info/s/dash.html?_=baf317d2a9932afca9b32c327f8a34c9>
 
-## nvm
+## nvm node版本管理
 
 `brew install nvm`
 
@@ -113,7 +113,7 @@ export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 
 `nvm install x.y.z`
 
-## vim
+## vim 命令行编辑器
 
 ```
 syntax on
@@ -174,3 +174,31 @@ filetype plugin indent on    " required
 
 <http://xclient.info/s/charles.html?_=baf317d2a9932afca9b32c327f8a34c9>
 
+## MongoDB MAC 客户端
+
+<https://robomongo.org/download>
+
+## Dash 离线文档
+
+<http://xclient.info/s/dash.html?_=3a347412eed8e3045f3b8d948be8a8e6>
+
+## SwitchHosts! 管理、切换多个 hosts
+
+<http://xclient.info/s/switchhosts.html?_=3a347412eed8e3045f3b8d948be8a8e6>
+
+## Chrome 实用插件
+
+* Adblock Plus 广告拦截
+* Allow-Control-Allow-Origin 关闭跨域限制
+* JSONView json浏览美化
+* Postman http请求工具
+* React Developer Tools React开发工具
+* Redux DevTools Redux开发工具
+* RGB转Hex 颜色值转换
+* Tampermonkey 运行自定义脚本
+* User-Agent Switcher for Chrome 修改UA
+* Vue.js devtools Vue开发工具
+* 二维码(QR码)生成器 生成当前页面二维码
+* 开发常用工具(Develop Tools) 常用工具集
+* 显示图像 如 Base64 获取图片的base64编码
+* 有道词典Chrome划词插件 翻译工具
