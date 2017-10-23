@@ -8,6 +8,10 @@ App Store 搜 xcode 安装, 安装后打开点击 agree 授权
 
 <http://160.16.231.71/ssx-2.6.3.dmg>
 
+### 使用我维护的PAC文件(不用也可以)
+
+`curl https://gitee.com/yinxin630/codes/2xvg0o1s9jri6aq75fetu79/raw\?blob_name\=ussp.sh | bash`
+
 ## 搜狗输入法
 
 <https://pinyin.sogou.com/mac/?r=pinyin>
