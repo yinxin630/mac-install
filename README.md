@@ -186,19 +186,25 @@ filetype plugin indent on    " required
 
 <http://xclient.info/s/switchhosts.html?_=3a347412eed8e3045f3b8d948be8a8e6>
 
+## Sketch 
+
+<http://xclient.info/s/sketch.html?_=6e9531566b50dd93cdcfdcf10a1d7c03>
+
+自动导出标注插件: <http://sketch.im/plugins/1>
+
 ## Chrome 实用插件
 
-* Adblock Plus 广告拦截
-* Allow-Control-Allow-Origin 关闭跨域限制
-* JSONView json浏览美化
-* Postman http请求工具
-* React Developer Tools React开发工具
-* Redux DevTools Redux开发工具
-* RGB转Hex 颜色值转换
-* Tampermonkey 运行自定义脚本
-* User-Agent Switcher for Chrome 修改UA
-* Vue.js devtools Vue开发工具
-* 二维码(QR码)生成器 生成当前页面二维码
-* 开发常用工具(Develop Tools) 常用工具集
-* 显示图像 如 Base64 获取图片的base64编码
-* 有道词典Chrome划词插件 翻译工具
+* [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=zh-CN) 广告拦截
+* [Allow-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=zh-CN) 关闭跨域限制
+* [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=zh-CN) json浏览美化
+* [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=zh-CN) http请求工具
+* [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=zh-CN) React开发工具
+* [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=zh-CN) Redux开发工具
+* [RGB转Hex](https://chrome.google.com/webstore/detail/rgb%E8%BD%AChex/pbbmhedhahomalkbcigoejgllbbopofi?hl=zh-CN) 颜色值转换
+* [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN) 运行自定义脚本
+* [User-Agent Switcher for Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg?hl=zh-CN) 修改UA
+* [Vue.js devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=zh-CN) Vue开发工具
+* [二维码(QR码)生成器](https://chrome.google.com/webstore/detail/%E4%BA%8C%E7%BB%B4%E7%A0%81qr%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8qr-code-generato/pflgjjogbmmcmfhfcnlohagkablhbpmg?hl=zh-CN) 生成当前页面二维码
+* [开发常用工具(Develop Tools)](https://chrome.google.com/webstore/detail/%E5%BC%80%E5%8F%91%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7develop-tools/fmmbocgmijhikfppllmnamafcphnelgn?hl=zh-CN) 常用工具集
+* [显示图像](https://chrome.google.com/webstore/detail/show-image-as-base64/dpccmhgpfjfhhnlodgbjkiemkgalomaj?hl=zh-CN) 如 Base64 获取图片的base64编码
+* [有道词典Chrome划词插件](https://chrome.google.com/webstore/detail/%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8chrome%E5%88%92%E8%AF%8D%E6%8F%92%E4%BB%B6/eopjamdnofihpioajgfdikhhbobonhbb?hl=zh-CN) 翻译工具
