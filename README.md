@@ -190,7 +190,7 @@ filetype plugin indent on    " required
 
 <http://xclient.info/s/sketch.html?_=6e9531566b50dd93cdcfdcf10a1d7c03>
 
-自动导出标注插件: <http://sketch.im/plugins/1>
+自动导出标注插件: <https://oursketch.com/plugin/sketch-measure>
 
 ## 欧路词典 翻译工具
 
