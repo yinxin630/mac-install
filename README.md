@@ -200,6 +200,10 @@ AppStore 下载
 
 <https://xclient.info/s/parallels-desktop.html>
 
+## LICEcap 捕获桌面, 保存GIF
+
+<https://xclient.info/s/licecap.html>
+
 ## Chrome 实用插件
 
 * [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) 代理管理
