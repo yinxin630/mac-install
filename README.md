@@ -204,6 +204,14 @@ AppStore 下载
 
 <https://xclient.info/s/licecap.html>
 
+## Royal TSX SSH连接和文件传输
+
+<https://www.royalapplications.com/ts/mac/features>
+
+首先进入设置, 安装 `Terminal` 和 `File Transfer` 插件  
+创建 Terminal 任务, 设置名称和服务器ip, 在 Credentials 选项页设置用户名和密码  
+创建 File Transfer 任务, 设置名称和服务器ip, 选择 SFTP 协议, 在 Credentials 选项页设置用户名和密码
+
 ## Chrome 实用插件
 
 * [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) 代理管理
