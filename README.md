@@ -1,20 +1,33 @@
 # mac-install
 
-## xcode 开发工具
+## 系统设置 (根据自己喜好来)
+1. 触摸板
+  - 启用 "单指轻点"
+2. 辅助功能
+  - 鼠标与触控板 => 触控板 => 启动拖移(三指拖移)
+3. 程序坞
+  - 调整合适的大小
+  - 自动隐藏
+  
+## 必备软件
 
-App Store 搜 xcode 安装, 安装后打开点击 agree 授权
+### chrome 浏览器
+<https://www.google.com/chrome/browser/desktop/index.html>
 
-## shadowsocks 翻墙
-
-<http://160.16.231.71/ssx-2.6.3.dmg>
-
-## 搜狗输入法
-
+### 搜狗输入法
 <https://pinyin.sogou.com/mac/?r=pinyin>
 
-## chrome 浏览器
+### Alfred 快速启动
+<http://xclient.info/s/alfred.html?_=baf317d2a9932afca9b32c327f8a34c9>
 
-<https://www.google.com/chrome/browser/desktop/index.html>
+## 开发软件
+
+### xcode 开发工具
+App Store 搜 xcode 安装, 安装后打开点击 agree 授权
+
+## shadowsocks 翻墙 
+
+<http://160.16.231.71/ssx-2.6.3.dmg>
 
 ## iTerm2 终端
 
@@ -82,9 +95,7 @@ run '~/.tmux/plugins/tpm/tpm'
 
 进入 tmux, 输入快捷键 prefix + I, 安装插件
 
-## Alfred 快速启动
 
-<http://xclient.info/s/alfred.html?_=baf317d2a9932afca9b32c327f8a34c9>
 
 ## vscode 编辑器
 
