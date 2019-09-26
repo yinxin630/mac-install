@@ -31,13 +31,6 @@ App Store 搜 xcode 安装, 安装后打开点击 agree 授权
 ### iTerm2 终端
 <https://www.iterm2.com/downloads.html>
 
-### zsh 系统shell
-`brew install zsh`
-
-oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-
-编辑配置 `~/.zshrc`, 修改主题为 ys
-
 ### homebrew Mac软件源
 `cd ~ && mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew`
 
@@ -57,6 +50,13 @@ brew update
 ```
 
 homebrew 加速 <http://w3cboy.com/post/2017/03/homebrew-speed-up/>
+
+### zsh 系统shell
+`brew install zsh`
+
+oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+编辑配置 `~/.zshrc`, 修改主题为 ys
 
 ### tmux 终端窗口工具
 `brew install tmux`
