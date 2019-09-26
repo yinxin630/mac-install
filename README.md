@@ -36,16 +36,17 @@ App Store 搜 xcode 安装, 安装后打开点击 agree 授权
 
 将 `homebrew/bin` 添加到环境变量
 
-修改为中科大源
+修改为清华源
 ```
 # 替换brew.git:
 cd "$(brew --repo)"
-git remote set-url origin https://mirrors.ustc.edu.cn/brew.git
+git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
 
 # 替换homebrew-core.git:
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
+source ~/.bash_profile
 
+## 更新
 brew update
 ```
 
@@ -84,9 +85,9 @@ run '~/.tmux/plugins/tpm/tpm'
 安装 yank `git clone https://github.com/tmux-plugins/tmux-yank ~/clone/path`
 
 修改 iTerm2 设置
-1. Go into iTerm2's preferences.
-2. Go to the "General" tab.
-3. Check "Applications in terminal may access clipboard"
+1. 打开 iTerm2's 偏好设置
+2. 前往 "General" => "Selection"
+3. 勾选 "Applications in terminal may access clipboard"
 
 进入 tmux, 输入快捷键 prefix + I, 安装插件
 
