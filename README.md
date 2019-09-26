@@ -169,7 +169,7 @@ filetype plugin indent on    " required
 
 安装插件工具 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-安装插件 `vim +PluginInstall +qall`
+安装插件, 进入 vim, 执行命令 `:PluginInstall`
 
 ### Charles 抓包
 <http://xclient.info/s/charles.html?_=baf317d2a9932afca9b32c327f8a34c9>
