@@ -20,21 +20,25 @@
 ### Alfred 快速启动
 <http://xclient.info/s/alfred.html?_=baf317d2a9932afca9b32c327f8a34c9>
 
+### shadowsocks 翻墙 
+<http://160.16.231.71/ssx-2.6.3.dmg>
+
 ## 开发软件
 
 ### xcode 开发工具
 App Store 搜 xcode 安装, 安装后打开点击 agree 授权
 
-## shadowsocks 翻墙 
-
-<http://160.16.231.71/ssx-2.6.3.dmg>
-
-## iTerm2 终端
-
+### iTerm2 终端
 <https://www.iterm2.com/downloads.html>
 
-## homebrew Mac软件源
+### zsh 系统shell
+`brew install zsh`
 
+oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+编辑配置 `~/.zshrc`, 修改主题为 ys
+
+### homebrew Mac软件源
 `cd ~ && mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew`
 
 将 `homebrew/bin` 添加到环境变量
@@ -54,16 +58,7 @@ brew update
 
 homebrew 加速 <http://w3cboy.com/post/2017/03/homebrew-speed-up/>
 
-## zsh 系统shell
-
-`brew install zsh`
-
-oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-
-编辑配置 `~/.zshrc`, 修改主题为 ys
-
-## tmux 终端窗口工具
-
+### tmux 终端窗口工具
 `brew install tmux`
 
 编辑配置文件 `vim ~/.tmux.conf`
@@ -95,21 +90,19 @@ run '~/.tmux/plugins/tpm/tpm'
 
 进入 tmux, 输入快捷键 prefix + I, 安装插件
 
-
-
-## vscode 编辑器
+### vscode 编辑器
 
 <https://code.visualstudio.com/download>
 
-## github desktop GIT客户端
+### github desktop GIT客户端
 
 <https://desktop.github.com/>
 
-## Dash 离线文档
+### Dash 离线文档
 
 <http://xclient.info/s/dash.html?_=baf317d2a9932afca9b32c327f8a34c9>
 
-## nvm node版本管理
+### nvm node版本管理
 
 `brew install nvm`
 
@@ -120,11 +113,11 @@ export NVM_DIR="$HOME/.nvm"
 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 ```
 
-## node.js
+### node.js
 
 `nvm install x.y.z`
 
-## vim 命令行编辑器
+### vim 命令行编辑器
 
 ```
 syntax on
@@ -177,51 +170,50 @@ filetype plugin indent on    " required
 
 安装插件 `vim +PluginInstall +qall`
 
-## Dr. Cleaner Pro 内存/垃圾清理
+### Charles 抓包
+<http://xclient.info/s/charles.html?_=baf317d2a9932afca9b32c327f8a34c9>
+
+### MongoDB MAC 客户端
+<https://robomongo.org/download>
+
+### SwitchHosts! 管理、切换多个 hosts
+<http://xclient.info/s/switchhosts.html?_=3a347412eed8e3045f3b8d948be8a8e6>
+
+### zan-proxy 开发代理
+
+<https://youzan.github.io/zan-proxy/>
+
+## 其它软件
+
+### Dr. Cleaner Pro 内存/垃圾清理
 
 <http://xclient.info/s/dr-cleaner-pro.html?_=baf317d2a9932afca9b32c327f8a34c9>
 
-## Charles 抓包
-
-<http://xclient.info/s/charles.html?_=baf317d2a9932afca9b32c327f8a34c9>
-
-## MongoDB MAC 客户端
-
-<https://robomongo.org/download>
-
-## SwitchHosts! 管理、切换多个 hosts
-
-<http://xclient.info/s/switchhosts.html?_=3a347412eed8e3045f3b8d948be8a8e6>
-
-## Sketch 
+### Sketch 
 
 <http://xclient.info/s/sketch.html?_=6e9531566b50dd93cdcfdcf10a1d7c03>
 
 自动导出标注插件: <https://oursketch.com/plugin/sketch-measure>
 
-## 欧路词典 翻译工具
+### 欧路词典 翻译工具
 
 AppStore 下载
 
-## Parallels Desktop 虚拟机, IE调试
+### Parallels Desktop 虚拟机, IE调试
 
 <https://xclient.info/s/parallels-desktop.html>
 
-## LICEcap 捕获桌面, 保存GIF
+### LICEcap 捕获桌面, 保存GIF
 
 <https://xclient.info/s/licecap.html>
 
-## Royal TSX SSH连接和文件传输
+### Royal TSX SSH连接和文件传输
 
 <https://www.royalapplications.com/ts/mac/features>
 
 首先进入设置, 安装 `Terminal` 和 `File Transfer` 插件  
 创建 Terminal 任务, 设置名称和服务器ip, 在 Credentials 选项页设置用户名和密码  
 创建 File Transfer 任务, 设置名称和服务器ip, 选择 SFTP 协议, 在 Credentials 选项页设置用户名和密码
-
-## zan-proxy 开发代理
-
-<https://youzan.github.io/zan-proxy/>
 
 ## Chrome 实用插件
 
