@@ -64,10 +64,16 @@ oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh
 2. `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git`
 3. 编辑配置 `~/.zshrc`, 添加 `plugins=(zsh-syntax-highlighting)`
 
-添加自动补全
+添加自动补全 (CTRL+F 表示采纳)
 1. `cd ~/.oh-my-zsh/custom/plugins`
 2. `git clone https://github.com/zsh-users/zsh-autosuggestions.git`
 3. 编辑配置 `~/.zshrc`, 添加 `plugins=(zsh-autosuggestions)`
+
+添加快捷跳转 z 命令
+1. `mkdir ~/.z`
+2. `cd ~/.oh-my-zsh/custom/plugins`
+3. `git clone https://github.com/rupa/z.git`
+4. 编辑配置 `~/.zshrc`, 添加 `source ~/.oh-my-zsh/custom/plugins/z/z.sh`
 
 使配置生效 `source ~/.zshrc`
 
