@@ -59,6 +59,13 @@ oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh
 
 编辑配置 `~/.zshrc`, 修改主题为 ys
 
+添加语法高亮
+1. cd ~/.oh-my-zsh/custom/plugins
+2. git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+3. 编辑配置 `~/.zshrc`, 添加 plugins=(zsh-syntax-highlighting)
+
+使配置生效 `source ~/.zshrc`
+
 ### tmux 终端窗口工具
 `brew install tmux`
 
