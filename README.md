@@ -75,6 +75,21 @@ oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh
 3. `git clone https://github.com/rupa/z.git`
 4. 编辑配置 `~/.zshrc`, 添加 `source ~/.oh-my-zsh/custom/plugins/z/z.sh`
 
+添加一些常用配置
+```
+alias show-dir="tree -l 3 -a --ignore node_modules,dist,.git"
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/Users/yinxin/homebrew/opt/nvm/nvm.sh" ] && . "/Users/yinxin/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/Users/yinxin/homebrew/opt/nvm/etc/bash_completion" ] && . "/Users/yinxin/homebrew/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+  
+export tb="--registry https://registry.npm.taobao.org/"
+export npm="--registry https://registry.npmjs.com/"
+
+alias git-config="git config user.name \"xxx\" && git config user.email \"xxx\" && echo \"Change git config success\""
+alias git-log="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+```
+
 使配置生效 `source ~/.zshrc`
 
 ### tmux 终端窗口工具
