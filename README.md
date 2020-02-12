@@ -78,10 +78,6 @@ oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh
 添加一些常用配置
 ```
 alias show-dir="tree -l 3 -a --ignore node_modules,dist,.git"
-
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/Users/yinxin/homebrew/opt/nvm/nvm.sh" ] && . "/Users/yinxin/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/Users/yinxin/homebrew/opt/nvm/etc/bash_completion" ] && . "/Users/yinxin/homebrew/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
   
 export tb="--registry https://registry.npm.taobao.org/"
 export npm="--registry https://registry.npmjs.com/"
