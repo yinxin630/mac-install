@@ -88,6 +88,8 @@ alias git-log="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cre
 
 使配置生效 `source ~/.zshrc`
 
+如果 highlighting 插件没生效, 请执行 `source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+
 ### tmux 终端窗口工具
 `brew install tmux`
 
