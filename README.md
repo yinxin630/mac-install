@@ -62,12 +62,20 @@ oh-my-zsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh
 添加语法高亮
 1. `cd ~/.oh-my-zsh/custom/plugins`
 2. `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git`
-3. 编辑配置 `~/.zshrc`, 添加 `plugins=(zsh-syntax-highlighting)`
+3. 编辑配置 `~/.zshrc`, 添加如下内容 
+```
+plugins=(zsh-syntax-highlighting)
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
 
 添加自动补全 (CTRL+F 表示采纳)
 1. `cd ~/.oh-my-zsh/custom/plugins`
 2. `git clone https://github.com/zsh-users/zsh-autosuggestions.git`
-3. 编辑配置 `~/.zshrc`, 添加 `plugins=(zsh-autosuggestions)`
+3. 编辑配置 `~/.zshrc`, 添加如下内容
+```
+plugins=(zsh-autosuggestions)
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
 
 添加快捷跳转 z 命令
 1. `mkdir ~/.z`
@@ -87,8 +95,6 @@ alias git-log="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cre
 ```
 
 使配置生效 `source ~/.zshrc`
-
-如果 highlighting 插件没生效, 请执行 `source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
 
 ### tmux 终端窗口工具
 `brew install tmux`
