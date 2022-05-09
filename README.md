@@ -78,10 +78,9 @@ source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
 
 添加快捷跳转 z 命令
-1. `mkdir ~/.z`
-2. `cd ~/.oh-my-zsh/custom/plugins`
-3. `git clone https://github.com/rupa/z.git`
-4. 编辑配置 `~/.zshrc`, 添加 `source ~/.oh-my-zsh/custom/plugins/z/z.sh`
+1. `cd ~/.oh-my-zsh/custom/plugins`
+2. `git clone https://github.com/rupa/z.git`
+3. 编辑配置 `~/.zshrc`, 添加 `source ~/.oh-my-zsh/custom/plugins/z/z.sh`
 
 添加一些常用配置
 ```
